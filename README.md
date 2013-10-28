@@ -1,4 +1,4 @@
 web-boilerplate
 ===============
 
-boilerplate for web projects
+boilerplate for web projects based on initializr
