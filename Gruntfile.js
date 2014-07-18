@@ -15,6 +15,9 @@ module.exports = function(grunt) {
         tasks: ['jshint', 'uglify:main'],
         options: {
           spawn: false,
+          jshintrc: true,
+          livereload: true,
+          livereloadOnError: false
         },
       },
       // HTML Files
@@ -23,6 +26,8 @@ module.exports = function(grunt) {
         tasks: ['htmlhint'],
         options: {
           spawn: false,
+          livereload: true,
+          livereloadOnError: false
         },
       },
       // SCSS files
@@ -31,6 +36,8 @@ module.exports = function(grunt) {
         tasks: ['compass'],
         options: {
           spawn: false,
+          livereload: true,
+          livereloadOnError: false
         },
       }
     },
@@ -49,7 +56,7 @@ module.exports = function(grunt) {
       options : {
         reporter: 'jslint',
         force: 'true',
-        reporterOutput: BASE_URL + 'js/main/errors.log',
+        reporterOutput: BASE_URL + 'js/main/errors.log'        
       },
       all: [BASE_URL + 'js/main/*.js'],
     },
