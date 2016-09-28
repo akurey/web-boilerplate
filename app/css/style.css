@@ -18,12 +18,10 @@
    =================== */
 @font-face {
   font-family: 'IntelligentSense';
-  src: url("fonts/tgl-31034-1-normschrift.ttf") format("truetype");
+  src: url("../fonts/tgl-31034-1-normschrift.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-
-/* line 27, ../scss/partials/_general.scss */
 .clear {
   clear: both;
 }
@@ -31,25 +29,21 @@
 /* ===================
     ALL: Orange Theme
    =================== */
-/* line 35, ../scss/partials/_general.scss */
 .header-container {
   border-bottom: 20px solid #e44d26;
 }
 
-/* line 40, ../scss/partials/_general.scss */
 .footer-container,
 .main aside {
   border-top: 20px solid #e44d26;
 }
 
-/* line 46, ../scss/partials/_general.scss */
 .header-container,
 .footer-container,
 .main aside {
   background: #f16529;
 }
 
-/* line 50, ../scss/partials/_general.scss */
 .title {
   color: white;
 }
@@ -57,7 +51,6 @@
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-/* line 58, ../scss/partials/_general.scss */
 .ir {
   overflow: hidden;
   background-color: transparent;
@@ -65,7 +58,6 @@
   *text-indent: -9999px;
 }
 
-/* line 66, ../scss/partials/_general.scss */
 .ir:before {
   content: "";
   display: block;
@@ -73,13 +65,11 @@
   height: 150%;
 }
 
-/* line 73, ../scss/partials/_general.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 78, ../scss/partials/_general.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -91,7 +81,6 @@
   width: 1px;
 }
 
-/* line 90, ../scss/partials/_general.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -102,34 +91,28 @@
   width: auto;
 }
 
-/* line 99, ../scss/partials/_general.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 104, ../scss/partials/_general.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-/* line 109, ../scss/partials/_general.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 113, ../scss/partials/_general.scss */
 .clearfix {
   *zoom: 1;
 }
 
-/* line 18, ../scss/partials/_header.scss */
 nav ul {
   margin: 0;
   padding: 0;
 }
-/* line 23, ../scss/partials/_header.scss */
 nav a {
   display: block;
   margin-bottom: 10px;
@@ -141,23 +124,19 @@ nav a {
   color: white;
   background: #e44d26;
 }
-/* line 38, ../scss/partials/_header.scss */
 nav a:hover,
 nav a:visited {
   color: white;
 }
-/* line 42, ../scss/partials/_header.scss */
 nav a:hover {
   text-decoration: underline;
 }
 
-/* line 18, ../scss/partials/_footer.scss */
 .footer-container footer {
   color: white;
   padding: 20px 0;
 }
 
-/* line 20, ../scss/partials/_content.scss */
 html,
 button,
 input,
@@ -166,25 +145,21 @@ textarea {
   color: #221;
 }
 
-/* line 24, ../scss/partials/_content.scss */
 body {
   font-size: 1em;
   line-height: 1.4;
 }
 
-/* line 29, ../scss/partials/_content.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 34, ../scss/partials/_content.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 39, ../scss/partials/_content.scss */
 hr {
   display: block;
   height: 1px;
@@ -194,34 +169,28 @@ hr {
   border-top: 1px solid #ccc;
 }
 
-/* line 49, ../scss/partials/_content.scss */
 h1 {
   font-family: "IntelligentSense", Verdana, Arial, sans;
 }
 
-/* line 53, ../scss/partials/_content.scss */
 img {
   vertical-align: middle;
 }
 
-/* line 57, ../scss/partials/_content.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 63, ../scss/partials/_content.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 67, ../scss/partials/_content.scss */
 body {
   font: 16px/26px Helvetica, Helvetica Neue, Arial;
 }
 
-/* line 71, ../scss/partials/_content.scss */
 .wrapper {
   width: 90%;
   margin: 0 5%;
@@ -230,15 +199,12 @@ body {
 /* ==============
     MOBILE: Main
    ============== */
-/* line 80, ../scss/partials/_content.scss */
 .main {
   padding: 30px 0;
 }
-/* line 85, ../scss/partials/_content.scss */
 .main article h1 {
   font-size: 2em;
 }
-/* line 90, ../scss/partials/_content.scss */
 .main aside {
   color: white;
   padding: 0px 5% 10px;
@@ -287,7 +253,6 @@ body {
   /* ====================
       INTERMEDIATE: Menu
      ==================== */
-  /* line 77, ../scss/partials/_media-queries.scss */
   nav a {
     float: left;
     width: 27%;
@@ -295,11 +260,9 @@ body {
     padding: 25px 2%;
     margin-bottom: 0;
   }
-  /* line 85, ../scss/partials/_media-queries.scss */
   nav li:first-child a {
     margin-left: 0;
   }
-  /* line 89, ../scss/partials/_media-queries.scss */
   nav li:last-child a {
     margin-right: 0;
   }
@@ -307,12 +270,10 @@ body {
   /* ========================
       INTERMEDIATE: IE Fixes
      ======================== */
-  /* line 98, ../scss/partials/_media-queries.scss */
   nav ul li {
     display: inline;
   }
 
-  /* line 102, ../scss/partials/_media-queries.scss */
   .oldie nav a {
     margin: 0 0.7%;
   }
@@ -321,7 +282,6 @@ body {
   /* ====================
       WIDE: CSS3 Effects
      ==================== */
-  /* line 114, ../scss/partials/_media-queries.scss */
   .header-container,
   .main aside {
     -webkit-box-shadow: 0 5px 10px #aaa;
@@ -332,12 +292,10 @@ body {
   /* ============
       WIDE: Menu
      ============ */
-  /* line 124, ../scss/partials/_media-queries.scss */
   .title {
     float: left;
   }
 
-  /* line 128, ../scss/partials/_media-queries.scss */
   nav {
     float: right;
     width: 38%;
@@ -346,12 +304,10 @@ body {
   /* ============
       WIDE: Main
      ============ */
-  /* line 138, ../scss/partials/_media-queries.scss */
   .main article {
     float: left;
     width: 57%;
   }
-  /* line 143, ../scss/partials/_media-queries.scss */
   .main aside {
     float: right;
     width: 28%;
@@ -361,7 +317,6 @@ body {
   /* ===============
       Maximal Width
      =============== */
-  /* line 156, ../scss/partials/_media-queries.scss */
   .wrapper {
     width: 1026px;
     /* 1140px - 10% for margins */
@@ -372,7 +327,6 @@ body {
    Print styles
    ========================================================================== */
 @media print {
-  /* line 167, ../scss/partials/_media-queries.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -381,18 +335,15 @@ body {
     text-shadow: none !important;
   }
 
-  /* line 175, ../scss/partials/_media-queries.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 179, ../scss/partials/_media-queries.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 183, ../scss/partials/_media-queries.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -400,42 +351,35 @@ body {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 193, ../scss/partials/_media-queries.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 198, ../scss/partials/_media-queries.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 203, ../scss/partials/_media-queries.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 208, ../scss/partials/_media-queries.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 212, ../scss/partials/_media-queries.scss */
   img {
     max-width: 100% !important;
   }
 
   @page {
     margin: 0.5cm;
-}
-
-  /* line 222, ../scss/partials/_media-queries.scss */
+  }
   p,
   h2,
   h3 {
@@ -443,7 +387,6 @@ body {
     widows: 3;
   }
 
-  /* line 228, ../scss/partials/_media-queries.scss */
   h2,
   h3 {
     page-break-after: avoid;
